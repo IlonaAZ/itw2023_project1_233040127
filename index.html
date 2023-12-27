@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portofolio</title>
+</head>
+<body>
+   <!-- NAVBAR  -->
+   <nav>
+    <div class="logo">
+        <h4>
+            Ilona Aqila Zahra
+        </h4>
+    </div>
+    <ul>
+        <li><a href="">Profile</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#testimon">Experience</a></li>
+        <li><a href="#exper">Expertise</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu-toggle">
+        <input type="checkbox"/>
+        <span></span>
+        <span></span>   
+        <span></span>
+    </div>
+</nav>
+
+
+   <header>
+    <div class="headershape"><img src="" alt=""></div>
+    <div class="container header-container">
+        <div class="header-left">
+            <h1>Ilona Aqila Zahra</h1>
+            <p>Seorang mahasiswa S1 Teknik Informatika di Universitas Pasundan</p>
+        </div>
+        <div class="header-right">
+            <img style="border-radius: 30px;" src="img/Pas Foto Merah.jpg" class="foto" alt="">
+        </div>
+    </div>
+   </header>
+
+
+
+   <section id="about">
+    <h1 class="heading" >About Me</h1>
+    <div class="container about-container">
+        <div class="about-left">
+            <img src="img/foto2.jpg" alt="">
+        </div>
+        <div class="about-right">
+            <ul>
+                <h4>Riwayat Pendidikan</h4>
+                <li>SDN Margadadi VI</li>
+                <li>SMP-IT Al-Irsyad Al-Islamiyyah</li>
+                <li>SMAN 1 Indramyu</li>
+            </ul>
+            <br>
+            <p>Mahasiswa yang sedang berusaha mengasah keterampilan di bidang progaming, fotografi, dan organisasi.
+                Memiliki kemampuan berhitung yang artinya saya senang dengan angka, mampu berpikir secara logis serta memahami hubungan sebab akibat dan suka mengolah angka.
+                Saya memiliki kesukaan dalam olahraga badminton dan bersepeda, lalu saya ingin selalu belajar tentang hal baru yang belum saya ketahui.
+            </p>
+        </div>
+    </div>
+    </section>
+    
+    
+    <section id="testimon">
+        <div class="heading xor">
+            <div class="experience-bottom">
+                <img style="border-radius: 30px;" src="img/foto PMR.jpg" class="pmr" alt="">
+                <img style="border-radius: 30px;" src="img/foto KOM.jpg" class="kom" alt="">
+            </div>
+            <h2> Experience</h2>
+            <br>
+            <p>Saya pernah memiliki pengalaman mewakili sekolah mengikuti olimpiade matematika.
+                saya juga berpengalaman mengikuti banyak organisasi sejak SD yang berarti saya suka menganalisis masalah dan merumusukan solusi bersama dengan teman organisasi saya.
+            </p>
+            <p>Mengikuti organisasi dan mengikuti banyak perlombaan.
+                Saat SMA saya berorganisasi PMR dan saat kuliah saya mengikuti organisasi KOM, walaupun organisasi saat di SMA dan di kuliah berbeda, tetapi sama-sama memiliki keunggulan untuk setiap organisasi yang dibangunnya.
+            </p>
+        </div>
+        <div class="container testimon-conta">
+            <article class="testimon-card"></article>
+        </div>
+    </section>
+
+    <section id="exper">
+        <h2 class="heading">Expertise</h2>
+        <div class="container exper-conta">
+            <div class="exper-box">
+                <h2>Academic</h2>
+                <div class="experience">
+                    <div class="exer">
+                        <h4>Matematika <p></p></h4>
+                    </div>
+                    <br>
+                    <div class="exer">
+                        <h4>Bahasa (alien) <p></p></h4>
+                    </div>
+                </div>
+            </div>
+                <div class="exper-box">
+                <h2>Non-Academic</h2>
+                <div class="experience">
+                    <div class="exer">
+                        <h4>Badminton <p></p></h4>
+                    </div>
+                    <div class="exer">
+                        <h4>Bermain sudoku <p></p></h4>
+                    </div>
+                    <div class="exer">
+                        <h4>Memecahkan puzzle <p></p></h4>
+                    </div>
+                    <div class="exer">
+                        <h4>Bermain rubik <p></p></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <section id="contact">
+        <h1 class="heading">Contact</h1>
+        <div class="contact-conta container">
+            <form action="" name="submit-to-google-sheet">
+                <label for="name">Nama</label>
+                <input type="text" id="name" name="nama" placeholder=" Masukan Nama Anda..">
+                <label for="mail">Email</label>
+                <input type="text" id="email" name="email" placeholder="Masukan Email Anda..">
+                <label for="message">Message</label>
+                <textarea type="text" id="mesage" name="pesan" placeholder="Masukan Pesan Anda.." style="height: 100px;"></textarea>
+                <input id="tmbl" type="submit" value="Submit">
+            </form>
+            <div style="margin-left: -30rem;" class="contact-right">
+                <h3>My contact person</h3>
+                <br>
+                <p>ilonazahra05@gmail.com</p>
+                <p>+6281912313275</p>
+                <p>Indramayu, Jawa Barat, Indonesia</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <p class="footer-copy">&#169; 2023 Ilona Aqila Zahra. All rigths reserved.</p>
+        </div>
+    </footer>
+<script> const menuToggle=document.querySelector('.menu-toggle input');
+    const nav=document.querySelector('nav ul');
+    
+    menuToggle.addEventListener('click',function(){
+    nav.classList.toggle('slide');
+    });</script>
+    <script>
+     const scriptURL = 'https://script.google.com/macros/s/AKfycbyZEHzi9jYuyHweQo3XxYe8qpRrFlkhs1a5aduWtCPSERYjnOrDe-oADk8QloRbFSOWsw/exec';
+    const form = document.forms['submit-to-google-sheet'];
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  });
+    </script>
+</body>
+</html>
